@@ -1,0 +1,65 @@
+@import './common';
+@import './example';
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+button {
+  display: block;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 255, 0.869);
+  border-radius: 5px;
+  border: 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+button, textarea{
+  color: azure;
+}
+
+input{
+  height: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(175, 37, 37);
+  flex-basis: calc((100% - 120px) / 4);
+  border: 1px solid white;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 5px;
+
+}
+
+.info-item {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.load-more {
+  display: block;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.load-more.is-hidden {
+  display: none;
+}
